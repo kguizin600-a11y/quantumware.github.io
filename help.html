@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda - QuantumWare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">QuantumWare</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="premium.html">Premium</a></li>
+                <li><a href="partners.html">Parceiros</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="help.html" class="active">Ajuda</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="help-hero">
+        <div class="container">
+            <h1>Central de Ajuda</h1>
+            <p class="subtitle">Soluções para os problemas mais comuns</p>
+        </div>
+    </section>
+
+    <section class="help-content">
+        <div class="container">
+            <div class="help-grid">
+                <div class="help-sidebar">
+                    <h3>Problemas Comuns</h3>
+                    <ul class="help-menu">
+                        <li><a href="#not-opening" class="help-link">Não está abrindo</a></li>
+                        <li><a href="#installation">Como instalar</a></li>
+                        <li><a href="#scripts">Como usar scripts</a></li>
+                        <li><a href="#antivirus">Falso positivo no antivírus</a></li>
+                        <li><a href="#update">Como atualizar</a></li>
+                        <li><a href="#premium-help">Ajuda com Premium</a></li>
+                    </ul>
+                </div>
+
+                <div class="help-main">
+                    <div class="help-section" id="not-opening">
+                        <h2>🔴 QuantumWare não está abrindo</h2>
+                        <div class="help-card important">
+                            <h3>Solução: Instale as dependências necessárias</h3>
+                            <p>
+                                O QuantumWare requer duas dependências do Windows para funcionar corretamente. 
+                                Se o executor não estiver abrindo, você precisa instalá-las:
+                            </p>
+                            <div class="download-links">
+                                <a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank" class="btn-download-dep">
+                                    📥 Microsoft Visual C++ Redistributable
+                                </a>
+                                <a href="https://dotnet.microsoft.com/download/dotnet/8.0" target="_blank" class="btn-download-dep">
+                                    📥 .NET Runtime 8.0.0
+                                </a>
+                            </div>
+                            <div class="help-steps">
+                                <h4>Passos para resolver:</h4>
+                                <ol>
+                                    <li>Clique nos links acima para baixar as dependências</li>
+                                    <li>Instale o Microsoft Visual C++ Redistributable primeiro</li>
+                                    <li>Depois instale o .NET Runtime 8.0.0</li>
+                                    <li>Reinicie seu computador</li>
+                                    <li>Tente abrir o QuantumWare novamente</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="help-card">
+                            <h3>Outras causas possíveis:</h3>
+                            <ul>
+                                <li>✓ Antivírus bloqueando o executor (adicione às exceções)</li>
+                                <li>✓ Windows Defender bloqueando (desative temporariamente)</li>
+                                <li>✓ Arquivo corrompido durante download (baixe novamente)</li>
+                                <li>✓ Permissões de administrador necessárias (execute como admin)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="help-section" id="installation">
+                        <h2>📦 Como instalar o QuantumWare</h2>
+                        <div class="help-card">
+                            <div class="help-steps">
+                                <ol>
+                                    <li>Baixe o arquivo .zip da página inicial</li>
+                                    <li>Extraia o conteúdo para uma pasta de sua escolha</li>
+                                    <li>Instale as dependências necessárias (Visual C++ e .NET Runtime)</li>
+                                    <li>Execute o arquivo QuantumWare.exe como administrador</li>
+                                    <li>Pronto! O executor está instalado e pronto para usar</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="help-section" id="scripts">
+                        <h2>📝 Como usar scripts</h2>
+                        <div class="help-card">
+                            <div class="help-steps">
+                                <ol>
+                                    <li>Abra o Roblox e entre em um jogo</li>
+                                    <li>Abra o QuantumWare</li>
+                                    <li>Clique em "Inject" ou "Attach"</li>
+                                    <li>Cole seu script na caixa de texto</li>
+                                    <li>Clique em "Execute" para rodar o script</li>
+                                </ol>
+                            </div>
+                            <p><strong>Dica:</strong> Você pode salvar scripts favoritos para usar depois!</p>
+                        </div>
+                    </div>
+
+                    <div class="help-section" id="antivirus">
+                        <h2>🛡️ Falso positivo no antivírus</h2>
+                        <div class="help-card">
+                            <p>
+                                Executores são frequentemente detectados como falsos positivos por antivírus 
+                                devido à natureza de como funcionam. O QuantumWare é 100% seguro e livre de vírus.
+                            </p>
+                            <h4>Como adicionar às exceções:</h4>
+                            <div class="help-steps">
+                                <ol>
+                                    <li>Abra as configurações do Windows Defender</li>
+                                    <li>Vá para "Proteção contra vírus e ameaças"</li>
+                                    <li>Clique em "Gerenciar configurações"</li>
+                                    <li>Role até "Exclusões" e clique em "Adicionar ou remover exclusões"</li>
+                                    <li>Adicione a pasta do QuantumWare às exclusões</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="help-section" id="update">
+                        <h2>🔄 Como atualizar</h2>
+                        <div class="help-card">
+                            <p>
+                                O QuantumWare geralmente notifica quando há uma atualização disponível. 
+                                Usuários Premium recebem atualizações automáticas.
+                            </p>
+                            <h4>Atualização manual:</h4>
+                            <div class="help-steps">
+                                <ol>
+                                    <li>Faça backup de seus scripts salvos</li>
+                                    <li>Baixe a versão mais recente da página inicial</li>
+                                    <li>Extraia e substitua os arquivos antigos</li>
+                                    <li>Abra o executor atualizado</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="help-section" id="premium-help">
+                        <h2>💎 Ajuda com Premium</h2>
+                        <div class="help-card">
+                            <p>
+                                Usuários Premium têm acesso a suporte prioritário 24/7. Para questões sobre 
+                                pagamento, ativação ou recursos premium, entre em contato diretamente.
+                            </p>
+                            <a href="contact.html" class="btn-outline">Contatar Suporte Premium</a>
+                        </div>
+                    </div>
+
+                    <div class="help-cta">
+                        <h3>Não encontrou a solução?</h3>
+                        <p>Nossa comunidade e equipe estão prontas para ajudar!</p>
+                        <div class="cta-buttons">
+                            <a href="partners.html" class="btn-outline">Discord da Comunidade</a>
+                            <a href="contact.html" class="btn-outline">Contatar Suporte</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>QuantumWare</h3>
+                    <p>O melhor executor Roblox do Brasil</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="premium.html">Premium</a></li>
+                        <li><a href="help.html">Ajuda</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Comunidade</h4>
+                    <ul>
+                        <li><a href="partners.html">Parceiros</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 QuantumWare. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
