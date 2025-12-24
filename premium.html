@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium - QuantumWare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">QuantumWare</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="premium.html" class="active">Premium</a></li>
+                <li><a href="partners.html">Parceiros</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="help.html">Ajuda</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="premium-hero">
+        <div class="container">
+            <h1>QuantumWare Premium</h1>
+            <p class="subtitle">Desbloqueie todo o potencial</p>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <div class="pricing-cards">
+                <div class="pricing-card free">
+                    <h3>Free</h3>
+                    <div class="price">R$ 0<span>/mês</span></div>
+                    <ul class="features-list">
+                        <li>✓ Executor básico</li>
+                        <li>✓ 91% Unc</li>
+                        <li>✓ Keyless</li>
+                        <li>✓ Suporte comunitário</li>
+                        <li>✓ Atualizações regulares</li>
+                        <li>✗ Suporte prioritário</li>
+                        <li>✗ API própria</li>
+                        <li>✗ Scripts exclusivos</li>
+                    </ul>
+                    <a href="index.html" class="btn-outline">Versão Atual</a>
+                </div>
+
+                <div class="pricing-card premium">
+                    <div class="popular-badge">Mais Popular</div>
+                    <h3>Premium</h3>
+                    <div class="price">R$ 29,90<span>/mês</span></div>
+                    <ul class="features-list">
+                        <li>✓ Tudo do Free</li>
+                        <li>✓ Suporte prioritário 24/7</li>
+                        <li>✓ API própria e exclusiva</li>
+                        <li>✓ Scripts premium exclusivos</li>
+                        <li>✓ Atualizações antecipadas</li>
+                        <li>✓ Proteção aprimorada</li>
+                        <li>✓ Interface customizável</li>
+                        <li>✓ Sem anúncios</li>
+                        <li>✓ Auto-update automático</li>
+                        <li>✓ Acesso a versões beta</li>
+                        <li>✓ Discord role exclusiva</li>
+                        <li>✓ Hub de scripts premium</li>
+                    </ul>
+                    <button class="btn-premium" onclick="showMaintenanceNotification()">Adquirir Premium</button>
+                </div>
+
+                <div class="pricing-card lifetime">
+                    <h3>Lifetime</h3>
+                    <div class="price">R$ 149,90<span>/único</span></div>
+                    <ul class="features-list">
+                        <li>✓ Tudo do Premium</li>
+                        <li>✓ Acesso vitalício</li>
+                        <li>✓ Sem mensalidades</li>
+                        <li>✓ Prioridade máxima</li>
+                        <li>✓ Badge especial</li>
+                        <li>✓ Influência no desenvolvimento</li>
+                        <li>✓ Recursos experimentais</li>
+                        <li>✓ Todas as futuras atualizações</li>
+                    </ul>
+                    <button class="btn-outline" onclick="showMaintenanceNotification()">Adquirir Lifetime</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="premium-features">
+        <div class="container">
+            <h2>Por que Premium?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Suporte Prioritário</h3>
+                    <p>Atendimento 24/7 com resposta em minutos. Nossa equipe dedicada está sempre disponível para ajudar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3>API Própria</h3>
+                    <p>Desenvolva seus próprios scripts com nossa API exclusiva. Documentação completa e exemplos inclusos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Scripts Exclusivos</h3>
+                    <p>Acesso ao hub premium com centenas de scripts testados e otimizados pela comunidade.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Updates First</h3>
+                    <p>Receba todas as atualizações antes de todos. Teste novos recursos em primeira mão.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Interface Custom</h3>
+                    <p>Personalize completamente a interface do executor. Temas, layouts e cores customizáveis.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Proteção Premium</h3>
+                    <p>Camadas extras de segurança e ofuscação para máxima proteção contra detecção.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>QuantumWare</h3>
+                    <p>O melhor executor Roblox do Brasil</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="premium.html">Premium</a></li>
+                        <li><a href="help.html">Ajuda</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Comunidade</h4>
+                    <ul>
+                        <li><a href="partners.html">Parceiros</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 QuantumWare. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="notification" id="notification">
+        <span class="notification-icon">⚠️</span>
+        <span class="notification-text">Em manutenção!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
