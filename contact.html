@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - QuantumWare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">QuantumWare</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="premium.html">Premium</a></li>
+                <li><a href="partners.html">Parceiros</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="help.html">Ajuda</a></li>
+                <li><a href="contact.html" class="active">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Entre em Contato</h1>
+            <p class="subtitle">Fale diretamente com o criador do QuantumWare</p>
+        </div>
+    </section>
+
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Informações de Contato</h2>
+                    <p>Tem alguma dúvida, sugestão ou problema? Entre em contato com o dono do QuantumWare.</p>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">👑</div>
+                        <h3>silva777only</h3>
+                        <p class="role">Owner & Scripter</p>
+                        <p class="description">Criador e desenvolvedor principal do QuantumWare. Disponível para suporte, parcerias e feedback.</p>
+                    </div>
+
+                    <div class="contact-methods">
+                        <h3>Onde me encontrar:</h3>
+                        <ul>
+                            <li>💬 Discord: <strong>silva777only</strong></li>
+                            <li>🎮 Roblox: <strong>silva777only</strong></li>
+                            <li>🌐 GitHub: <strong>@silva777only</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-note">
+                        <p><strong>Nota:</strong> Para suporte técnico rápido, use nossa página de <a href="help.html">Ajuda</a> primeiro. Para questões sobre Premium, visite a página <a href="premium.html">Premium</a>.</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h2>Envie uma Mensagem</h2>
+                    <form class="contact-form" onsubmit="handleContactSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" required placeholder="Seu nome">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-method">Método de Contato</label>
+                            <input type="text" id="contact-method" required placeholder="Discord, Email, etc.">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select id="subject" required>
+                                <option value="">Selecione um assunto</option>
+                                <option value="support">Suporte Técnico</option>
+                                <option value="bug">Reportar Bug</option>
+                                <option value="suggestion">Sugestão</option>
+                                <option value="premium">Questões sobre Premium</option>
+                                <option value="partnership">Parceria</option>
+                                <option value="other">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" required placeholder="Sua mensagem..." rows="6"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>QuantumWare</h3>
+                    <p>O melhor executor Roblox do Brasil</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="premium.html">Premium</a></li>
+                        <li><a href="help.html">Ajuda</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Comunidade</h4>
+                    <ul>
+                        <li><a href="partners.html">Parceiros</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 QuantumWare. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="notification" id="notification">
+        <span class="notification-icon">⚠️</span>
+        <span class="notification-text">Em manutenção!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
